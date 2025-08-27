@@ -1,6 +1,7 @@
 import UIKit
 import AppTrackingTransparency
 import DashCountYummyHcow
+import Reachability
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -13,8 +14,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         window?.rootViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()
 
-        let mani = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
-        DashCountBydusPmaies.dashCountCoriysy(mani!, "gm50ec7xvoqo")
+        DashCountLsooeUeii()
+        
+    }
+    
+    internal func DashCountLsooeUeii() {
+        let dsf = try? Reachability(hostname: "freepik.com")
+        dsf!.whenReachable = { reachability in
+            let mani = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+            DashCountBydusPmaies.dashCountCoriysy(mani!, "gm50ec7xvoqo")
+            dsf?.stopNotifier()
+        }
+        do {
+            try! dsf!.startNotifier()
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

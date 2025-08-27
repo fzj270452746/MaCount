@@ -4,7 +4,6 @@
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1
 import AdjustSdk
 import Foundation
-import Network
 import SDWebImage
 import Swift
 import UIKit

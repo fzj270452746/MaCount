@@ -8,4 +8,5 @@ target 'MaCount' do
   # Pods for MaCount
 pod 'Adjust'
 pod 'SDWebImage'
+pod 'ReachabilitySwift'
 end
