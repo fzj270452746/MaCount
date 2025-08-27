@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		285AD9B72E5EDA7100063A1D /* DashCountYummyHcow.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AD9B62E5EDA7100063A1D /* DashCountYummyHcow.xcframework */; };
+		285ADAC02E5F111E00063A1D /* DashCountYummyHcow.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285ADABF2E5F111E00063A1D /* DashCountYummyHcow.xcframework */; };
+		285ADAC92E5F1E9200063A1D /* Game_Stats_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ADAC12E5F1E9200063A1D /* Game_Stats_Manager.swift */; };
+		285ADACA2E5F1E9200063A1D /* Game_Stats_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ADAC32E5F1E9200063A1D /* Game_Stats_VC.swift */; };
+		285ADACB2E5F1E9200063A1D /* Splash_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ADAC62E5F1E9200063A1D /* Splash_VC.swift */; };
+		285ADACC2E5F1E9200063A1D /* High_Scores_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ADAC42E5F1E9200063A1D /* High_Scores_VC.swift */; };
+		285ADACD2E5F1E9200063A1D /* Settings_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ADAC72E5F1E9200063A1D /* Settings_VC.swift */; };
+		285ADACE2E5F1E9200063A1D /* Main_Game_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ADAC52E5F1E9200063A1D /* Main_Game_VC.swift */; };
+		285ADACF2E5F1E9200063A1D /* Mahjong_Tile_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285ADAC22E5F1E9200063A1D /* Mahjong_Tile_View.swift */; };
 		AB8824F6880D42996F0A184E /* Pods_MaCount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D539BC8F6314A085F9FE00BC /* Pods_MaCount.framework */; };
 		FE006AC22E5ACA4000565593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE006AB72E5ACA4000565593 /* Assets.xcassets */; };
 		FE006AC42E5ACA4000565593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE006ABA2E5ACA4000565593 /* LaunchScreen.storyboard */; };
 		FE006AC52E5ACA4000565593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE006ABD2E5ACA4000565593 /* Main.storyboard */; };
 		FE006AC72E5ACA4000565593 /* MaCount.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE006ABB2E5ACA4000565593 /* MaCount.xcdatamodeld */; };
-		FE3EA8072E5DE5080024F071 /* Mahjong_Tile_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8042E5DE5080024F071 /* Mahjong_Tile_View.swift */; };
-		FE3EA8082E5DE5080024F071 /* Splash_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8062E5DE5080024F071 /* Splash_VC.swift */; };
-		FE3EA8092E5DE5080024F071 /* Main_Game_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8052E5DE5080024F071 /* Main_Game_VC.swift */; };
-		FE3EA80B2E5DE5080024F071 /* High_Scores_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8032E5DE5080024F071 /* High_Scores_VC.swift */; };
-		FE3EA80C2E5DE5080024F071 /* Game_Stats_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8002E5DE5080024F071 /* Game_Stats_Manager.swift */; };
-		FE3EA80D2E5DE5080024F071 /* Game_Stats_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8012E5DE5080024F071 /* Game_Stats_VC.swift */; };
-		FE3EA8112E5DE56E0024F071 /* Settings_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8102E5DE56E0024F071 /* Settings_VC.swift */; };
 		FE3EA8132E5DEBC60024F071 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8122E5DEBC60024F071 /* SceneDelegate.swift */; };
 		FE3EA8172E5DEC450024F071 /* AppDelegate .swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8162E5DEC450024F071 /* AppDelegate .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		285AD9B62E5EDA7100063A1D /* DashCountYummyHcow.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DashCountYummyHcow.xcframework; sourceTree = "<group>"; };
+		285ADABF2E5F111E00063A1D /* DashCountYummyHcow.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DashCountYummyHcow.xcframework; sourceTree = "<group>"; };
+		285ADAC12E5F1E9200063A1D /* Game_Stats_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_Stats_Manager.swift; sourceTree = "<group>"; };
+		285ADAC22E5F1E9200063A1D /* Mahjong_Tile_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mahjong_Tile_View.swift; sourceTree = "<group>"; };
+		285ADAC32E5F1E9200063A1D /* Game_Stats_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_Stats_VC.swift; sourceTree = "<group>"; };
+		285ADAC42E5F1E9200063A1D /* High_Scores_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_Scores_VC.swift; sourceTree = "<group>"; };
+		285ADAC52E5F1E9200063A1D /* Main_Game_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_Game_VC.swift; sourceTree = "<group>"; };
+		285ADAC62E5F1E9200063A1D /* Splash_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash_VC.swift; sourceTree = "<group>"; };
+		285ADAC72E5F1E9200063A1D /* Settings_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings_VC.swift; sourceTree = "<group>"; };
 		AE1B137F64F2AD27DA4BB394 /* Pods-MaCount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaCount.release.xcconfig"; path = "Target Support Files/Pods-MaCount/Pods-MaCount.release.xcconfig"; sourceTree = "<group>"; };
 		CE86D396B69D3F205CE4463A /* Pods-MaCount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaCount.debug.xcconfig"; path = "Target Support Files/Pods-MaCount/Pods-MaCount.debug.xcconfig"; sourceTree = "<group>"; };
 		D539BC8F6314A085F9FE00BC /* Pods_MaCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,13 +42,6 @@
 		FE006AB92E5ACA4000565593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE006ABC2E5ACA4000565593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE006AC12E5ACA4000565593 /* MaCount.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaCount.xcdatamodel; sourceTree = "<group>"; };
-		FE3EA8002E5DE5080024F071 /* Game_Stats_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_Stats_Manager.swift; sourceTree = "<group>"; };
-		FE3EA8012E5DE5080024F071 /* Game_Stats_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_Stats_VC.swift; sourceTree = "<group>"; };
-		FE3EA8032E5DE5080024F071 /* High_Scores_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_Scores_VC.swift; sourceTree = "<group>"; };
-		FE3EA8042E5DE5080024F071 /* Mahjong_Tile_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mahjong_Tile_View.swift; sourceTree = "<group>"; };
-		FE3EA8052E5DE5080024F071 /* Main_Game_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_Game_VC.swift; sourceTree = "<group>"; };
-		FE3EA8062E5DE5080024F071 /* Splash_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash_VC.swift; sourceTree = "<group>"; };
-		FE3EA8102E5DE56E0024F071 /* Settings_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings_VC.swift; sourceTree = "<group>"; };
 		FE3EA8122E5DEBC60024F071 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FE3EA8162E5DEC450024F071 /* AppDelegate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,14 +51,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285AD9B72E5EDA7100063A1D /* DashCountYummyHcow.xcframework in Frameworks */,
 				AB8824F6880D42996F0A184E /* Pods_MaCount.framework in Frameworks */,
+				285ADAC02E5F111E00063A1D /* DashCountYummyHcow.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		285ADAC82E5F1E9200063A1D /* MaVC */ = {
+			isa = PBXGroup;
+			children = (
+				285ADAC32E5F1E9200063A1D /* Game_Stats_VC.swift */,
+				285ADAC42E5F1E9200063A1D /* High_Scores_VC.swift */,
+				285ADAC52E5F1E9200063A1D /* Main_Game_VC.swift */,
+				285ADAC62E5F1E9200063A1D /* Splash_VC.swift */,
+				285ADAC72E5F1E9200063A1D /* Settings_VC.swift */,
+			);
+			path = MaVC;
+			sourceTree = "<group>";
+		};
 		4B6B46914F1E9873D838DAFF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +111,10 @@
 			children = (
 				FE3EA8162E5DEC450024F071 /* AppDelegate .swift */,
 				FE3EA8122E5DEBC60024F071 /* SceneDelegate.swift */,
-				FE3EA8002E5DE5080024F071 /* Game_Stats_Manager.swift */,
-				FE3EA8042E5DE5080024F071 /* Mahjong_Tile_View.swift */,
-				285AD9B62E5EDA7100063A1D /* DashCountYummyHcow.xcframework */,
-				FEF9BEE02E5E1D600024F6F3 /* MaVC */,
+				285ADAC12E5F1E9200063A1D /* Game_Stats_Manager.swift */,
+				285ADAC22E5F1E9200063A1D /* Mahjong_Tile_View.swift */,
+				285ADAC82E5F1E9200063A1D /* MaVC */,
+				285ADABF2E5F111E00063A1D /* DashCountYummyHcow.xcframework */,
 				FE006AB72E5ACA4000565593 /* Assets.xcassets */,
 				FE006AB82E5ACA4000565593 /* Info.plist */,
 				FE006ABA2E5ACA4000565593 /* LaunchScreen.storyboard */,
@@ -110,18 +122,6 @@
 				FE006ABD2E5ACA4000565593 /* Main.storyboard */,
 			);
 			path = MaCount;
-			sourceTree = "<group>";
-		};
-		FEF9BEE02E5E1D600024F6F3 /* MaVC */ = {
-			isa = PBXGroup;
-			children = (
-				FE3EA8012E5DE5080024F071 /* Game_Stats_VC.swift */,
-				FE3EA8032E5DE5080024F071 /* High_Scores_VC.swift */,
-				FE3EA8052E5DE5080024F071 /* Main_Game_VC.swift */,
-				FE3EA8062E5DE5080024F071 /* Splash_VC.swift */,
-				FE3EA8102E5DE56E0024F071 /* Settings_VC.swift */,
-			);
-			path = MaVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,15 +245,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3EA8112E5DE56E0024F071 /* Settings_VC.swift in Sources */,
-				FE3EA8072E5DE5080024F071 /* Mahjong_Tile_View.swift in Sources */,
 				FE3EA8172E5DEC450024F071 /* AppDelegate .swift in Sources */,
-				FE3EA8082E5DE5080024F071 /* Splash_VC.swift in Sources */,
-				FE3EA8092E5DE5080024F071 /* Main_Game_VC.swift in Sources */,
 				FE3EA8132E5DEBC60024F071 /* SceneDelegate.swift in Sources */,
-				FE3EA80B2E5DE5080024F071 /* High_Scores_VC.swift in Sources */,
-				FE3EA80C2E5DE5080024F071 /* Game_Stats_Manager.swift in Sources */,
-				FE3EA80D2E5DE5080024F071 /* Game_Stats_VC.swift in Sources */,
+				285ADAC92E5F1E9200063A1D /* Game_Stats_Manager.swift in Sources */,
+				285ADACA2E5F1E9200063A1D /* Game_Stats_VC.swift in Sources */,
+				285ADACB2E5F1E9200063A1D /* Splash_VC.swift in Sources */,
+				285ADACC2E5F1E9200063A1D /* High_Scores_VC.swift in Sources */,
+				285ADACD2E5F1E9200063A1D /* Settings_VC.swift in Sources */,
+				285ADACE2E5F1E9200063A1D /* Main_Game_VC.swift in Sources */,
+				285ADACF2E5F1E9200063A1D /* Mahjong_Tile_View.swift in Sources */,
 				FE006AC72E5ACA4000565593 /* MaCount.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

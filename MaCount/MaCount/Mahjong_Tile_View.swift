@@ -74,10 +74,10 @@ class MahjongTileView: UIView {
         addSubview(countdown_label_for_dash)
         
         NSLayoutConstraint.activate([
-            countdown_label_for_dash.topAnchor.constraint(equalTo: tile_image_view_for_dash.bottomAnchor, constant: 12),
+            countdown_label_for_dash.topAnchor.constraint(equalTo: tile_image_view_for_dash.bottomAnchor, constant: 6),
             countdown_label_for_dash.centerXAnchor.constraint(equalTo: centerXAnchor),
-            countdown_label_for_dash.widthAnchor.constraint(equalToConstant: 65),
-            countdown_label_for_dash.heightAnchor.constraint(equalToConstant: 28)
+            countdown_label_for_dash.widthAnchor.constraint(equalToConstant: 40),
+            countdown_label_for_dash.heightAnchor.constraint(equalToConstant: 20)
         ])
     }
     

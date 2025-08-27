@@ -48,7 +48,7 @@ class Splash_VC: UIViewController {
         title_label_for_dash = UILabel()
         title_label_for_dash.text = "Mahjong Dash"
         title_label_for_dash.textColor = .white
-        title_label_for_dash.font = UIFont.systemFont(ofSize: 42, weight: .bold)
+        title_label_for_dash.font = UIFont.systemFont(ofSize: 30, weight: .bold)
         title_label_for_dash.textAlignment = .center
         title_label_for_dash.alpha = 0
         title_label_for_dash.translatesAutoresizingMaskIntoConstraints = false

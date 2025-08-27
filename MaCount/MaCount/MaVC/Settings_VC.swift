@@ -51,7 +51,7 @@ class Settings_VC: UIViewController {
         game_mode_label_for_dash = UILabel()
         game_mode_label_for_dash.text = "Game Mode:"
         game_mode_label_for_dash.textColor = .white
-        game_mode_label_for_dash.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
+        game_mode_label_for_dash.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
         game_mode_label_for_dash.translatesAutoresizingMaskIntoConstraints = false
         overlay_view_for_dash.addSubview(game_mode_label_for_dash)
         
@@ -68,7 +68,7 @@ class Settings_VC: UIViewController {
         difficulty_label_for_dash = UILabel()
         difficulty_label_for_dash.text = "Difficulty:"
         difficulty_label_for_dash.textColor = .white
-        difficulty_label_for_dash.font = UIFont.systemFont(ofSize: 18, weight: .semibold)
+        difficulty_label_for_dash.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
         difficulty_label_for_dash.translatesAutoresizingMaskIntoConstraints = false
         overlay_view_for_dash.addSubview(difficulty_label_for_dash)
         
@@ -124,7 +124,7 @@ class Settings_VC: UIViewController {
             
             // Game Mode
             game_mode_label_for_dash.topAnchor.constraint(equalTo: title_label_for_dash.bottomAnchor, constant: 40),
-            game_mode_label_for_dash.leadingAnchor.constraint(equalTo: overlay_view_for_dash.leadingAnchor, constant: 30),
+            game_mode_label_for_dash.leadingAnchor.constraint(equalTo: overlay_view_for_dash.leadingAnchor, constant: 15),
             
             game_mode_segment_for_dash.centerYAnchor.constraint(equalTo: game_mode_label_for_dash.centerYAnchor),
             game_mode_segment_for_dash.trailingAnchor.constraint(equalTo: overlay_view_for_dash.trailingAnchor, constant: -30),
@@ -132,7 +132,7 @@ class Settings_VC: UIViewController {
             
             // Difficulty
             difficulty_label_for_dash.topAnchor.constraint(equalTo: game_mode_label_for_dash.bottomAnchor, constant: 30),
-            difficulty_label_for_dash.leadingAnchor.constraint(equalTo: overlay_view_for_dash.leadingAnchor, constant: 30),
+            difficulty_label_for_dash.leadingAnchor.constraint(equalTo: overlay_view_for_dash.leadingAnchor, constant: 15),
             
             difficulty_segment_for_dash.centerYAnchor.constraint(equalTo: difficulty_label_for_dash.centerYAnchor),
             difficulty_segment_for_dash.trailingAnchor.constraint(equalTo: overlay_view_for_dash.trailingAnchor, constant: -30),

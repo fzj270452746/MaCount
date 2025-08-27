@@ -6,13 +6,6 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "DashCountYummyHcow"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -20,1039 +13,20 @@
       },
       {
         "kind": "Import",
-        "name": "AdjustSdk",
-        "printedName": "AdjustSdk",
+        "name": "Network",
+        "printedName": "Network",
         "declKind": "Import",
         "moduleName": "DashCountYummyHcow"
       },
       {
-        "kind": "Function",
-        "name": "dpt",
-        "printedName": "dpt(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Optional",
-            "printedName": "Swift.String?",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:Sq"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow3dptySSSgSSF",
-        "mangledName": "$s18DashCountYummyHcow3dptySSSgSSF",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Var",
-        "name": "kDashCountCyrysrt",
-        "printedName": "kDashCountCyrysrt",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:18DashCountYummyHcow01kaB7CyrysrtSSvp",
-        "mangledName": "$s18DashCountYummyHcow01kaB7CyrysrtSSvp",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
-        "kind": "Var",
-        "name": "kDashCountBsgerys",
-        "printedName": "kDashCountBsgerys",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:18DashCountYummyHcow01kaB7BsgerysSSvp",
-        "mangledName": "$s18DashCountYummyHcow01kaB7BsgerysSSvp",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
-        "kind": "Function",
-        "name": "DashCountBrioskForids",
-        "printedName": "DashCountBrioskForids(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "UIViewController",
-            "printedName": "UIKit.UIViewController",
-            "usr": "c:objc(cs)UIViewController"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow0aB12BrioskForidsyySo16UIViewControllerCF",
-        "mangledName": "$s18DashCountYummyHcow0aB12BrioskForidsyySo16UIViewControllerCF",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "DashCountCujruEruus",
-        "printedName": "DashCountCujruEruus(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "UIViewController",
-            "printedName": "UIKit.UIViewController",
-            "usr": "c:objc(cs)UIViewController"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow0aB10CujruEruusyySo16UIViewControllerCF",
-        "mangledName": "$s18DashCountYummyHcow0aB10CujruEruusyySo16UIViewControllerCF",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "DashCountDrosir",
-        "printedName": "DashCountDrosir(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "DashCountOinrnse",
-            "printedName": "DashCountYummyHcow.DashCountOinrnse",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow0aB6DrosiryyAA0aB7OinrnseVF",
-        "mangledName": "$s18DashCountYummyHcow0aB6DrosiryyAA0aB7OinrnseVF",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "DashCountFreyuysOks",
-        "printedName": "DashCountFreyuysOks(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "DashCountOinrnse",
-            "printedName": "DashCountYummyHcow.DashCountOinrnse",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow0aB10FreyuysOksyyAA0aB7OinrnseVF",
-        "mangledName": "$s18DashCountYummyHcow0aB10FreyuysOksyyAA0aB7OinrnseVF",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "DashCountHubkoroUjrs",
-        "printedName": "DashCountHubkoroUjrs(_:etDic:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Swift.String]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:SD"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow0aB11HubkoroUjrs_5etDicySDySSypG_SDyS2SGtF",
-        "mangledName": "$s18DashCountYummyHcow0aB11HubkoroUjrs_5etDicySDySSypG_SDyS2SGtF",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "RawDocComment"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "DashCountTandGbreus",
-        "printedName": "DashCountTandGbreus(_:_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:SD"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Dictionary",
-            "printedName": "[Swift.String : Swift.String]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "usr": "s:SD"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow0aB10TandGbreusyySDySSypG_SDyS2SGtF",
-        "mangledName": "$s18DashCountYummyHcow0aB10TandGbreusyySDySSypG_SDyS2SGtF",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
         "kind": "TypeDecl",
-        "name": "DashCountOinrnse",
-        "printedName": "DashCountOinrnse",
+        "name": "DashCountBydusPmaies",
+        "printedName": "DashCountBydusPmaies",
         "children": [
-          {
-            "kind": "Var",
-            "name": "dashCountBthsuj",
-            "printedName": "dashCountBthsuj",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6BthsujSSSgvp",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6BthsujSSSgvp",
-            "moduleName": "DashCountYummyHcow",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6BthsujSSSgvg",
-                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6BthsujSSSgvg",
-                "moduleName": "DashCountYummyHcow",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dashCountBvierk",
-            "printedName": "dashCountBvierk",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6BvierkSSSgvp",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6BvierkSSSgvp",
-            "moduleName": "DashCountYummyHcow",
-            "declAttributes": [
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6BvierkSSSgvg",
-                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6BvierkSSSgvg",
-                "moduleName": "DashCountYummyHcow",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dashCountXiruuTys",
-            "printedName": "dashCountXiruuTys",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB8XiruuTysSSSgvp",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB8XiruuTysSSSgvp",
-            "moduleName": "DashCountYummyHcow",
-            "declAttributes": [
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 2,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB8XiruuTysSSSgvg",
-                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB8XiruuTysSSSgvg",
-                "moduleName": "DashCountYummyHcow",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dashCountTanok",
-            "printedName": "dashCountTanok",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB5TanokSSSgvp",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB5TanokSSSgvp",
-            "moduleName": "DashCountYummyHcow",
-            "declAttributes": [
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 3,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB5TanokSSSgvg",
-                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB5TanokSSSgvg",
-                "moduleName": "DashCountYummyHcow",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dashCountSoein",
-            "printedName": "dashCountSoein",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB5SoeinSSSgvp",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB5SoeinSSSgvp",
-            "moduleName": "DashCountYummyHcow",
-            "declAttributes": [
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 4,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB5SoeinSSSgvg",
-                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB5SoeinSSSgvg",
-                "moduleName": "DashCountYummyHcow",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dashCountBnrhCIo",
-            "printedName": "dashCountBnrhCIo",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB7BnrhCIoSSSgvp",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB7BnrhCIoSSSgvp",
-            "moduleName": "DashCountYummyHcow",
-            "declAttributes": [
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 5,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB7BnrhCIoSSSgvg",
-                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB7BnrhCIoSSSgvg",
-                "moduleName": "DashCountYummyHcow",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dashCountGroigd",
-            "printedName": "dashCountGroigd",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6GroigdSiSgvp",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6GroigdSiSgvp",
-            "moduleName": "DashCountYummyHcow",
-            "declAttributes": [
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 6,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6GroigdSiSgvg",
-                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6GroigdSiSgvg",
-                "moduleName": "DashCountYummyHcow",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "dashCountKyeyst",
-            "printedName": "dashCountKyeyst",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6KyeystSDyS2SGSgvp",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6KyeystSDyS2SGSgvp",
-            "moduleName": "DashCountYummyHcow",
-            "declAttributes": [
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 7,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Swift.String]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.String]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6KyeystSDyS2SGSgvg",
-                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6KyeystSDyS2SGSgvg",
-                "moduleName": "DashCountYummyHcow",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(dashCountBthsuj:dashCountBvierk:dashCountXiruuTys:dashCountTanok:dashCountSoein:dashCountBnrhCIo:dashCountGroigd:dashCountKyeyst:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DashCountOinrnse",
-                "printedName": "DashCountYummyHcow.DashCountOinrnse",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Swift.String]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Swift.String]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6Bthsuj0fB6Bvierk0fB8XiruuTys0fB5Tanok0fB5Soein0fB7BnrhCIo0fB6Groigd0fB6KyeystACSSSg_A5LSiSgSDyS2SGSgtcfc",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6Bthsuj0fB6Bvierk0fB8XiruuTys0fB5Tanok0fB5Soein0fB7BnrhCIo0fB6Groigd0fB6KyeystACSSSg_A5LSiSgSDyS2SGSgtcfc",
-            "moduleName": "DashCountYummyHcow",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DashCountOinrnse",
-                "printedName": "DashCountYummyHcow.DashCountOinrnse",
-                "usr": "s:18DashCountYummyHcow0aB7OinrnseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "DashCountYummyHcow",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
           {
             "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
+            "name": "dashCountCoriysy",
+            "printedName": "dashCountCoriysy(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1061,27 +35,57 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18DashCountYummyHcow0aB7OinrnseV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV6encode2toys7Encoder_p_tKF",
+            "usr": "s:18DashCountYummyHcow0aB11BydusPmaiesC04dashB7CoriysyyySo16UIViewControllerC_SStFZ",
+            "mangledName": "$s18DashCountYummyHcow0aB11BydusPmaiesC04dashB7CoriysyyySo16UIViewControllerC_SStFZ",
+            "moduleName": "DashCountYummyHcow",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DashCountBydusPmaies",
+                "printedName": "DashCountYummyHcow.DashCountBydusPmaies",
+                "usr": "s:18DashCountYummyHcow0aB11BydusPmaiesC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DashCountYummyHcow0aB11BydusPmaiesCACycfc",
+            "mangledName": "$s18DashCountYummyHcow0aB11BydusPmaiesCACycfc",
             "moduleName": "DashCountYummyHcow",
             "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:18DashCountYummyHcow0aB7OinrnseV",
-        "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV",
+        "declKind": "Class",
+        "usr": "s:18DashCountYummyHcow0aB11BydusPmaiesC",
+        "mangledName": "$s18DashCountYummyHcow0aB11BydusPmaiesC",
         "moduleName": "DashCountYummyHcow",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -1096,71 +100,18 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
       {
-        "kind": "Function",
-        "name": "DashCountHuond",
-        "printedName": "DashCountHuond()",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Bool",
-            "printedName": "Swift.Bool",
-            "usr": "s:Sb"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow0aB5HuondSbyF",
-        "mangledName": "$s18DashCountYummyHcow0aB5HuondSbyF",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "DashCountYummyHcow",
         "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Function",
-        "name": "DashCountvbhdues",
-        "printedName": "DashCountvbhdues()",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Bool",
-            "printedName": "Swift.Bool",
-            "usr": "s:Sb"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:18DashCountYummyHcow0A12CountvbhduesSbyF",
-        "mangledName": "$s18DashCountYummyHcow0A12CountvbhduesSbyF",
-        "moduleName": "DashCountYummyHcow",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3093,10 +2044,1158 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "DashCountYummyHcow"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DashCountYummyHcow"
+      },
+      {
+        "kind": "Import",
+        "name": "AdjustSdk",
+        "printedName": "AdjustSdk",
+        "declKind": "Import",
+        "moduleName": "DashCountYummyHcow"
+      },
+      {
+        "kind": "Function",
+        "name": "dpt",
+        "printedName": "dpt(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow3dptySSSgSSF",
+        "mangledName": "$s18DashCountYummyHcow3dptySSSgSSF",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "kDashCountCyrysrt",
+        "printedName": "kDashCountCyrysrt",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:18DashCountYummyHcow01kaB7CyrysrtSSvp",
+        "mangledName": "$s18DashCountYummyHcow01kaB7CyrysrtSSvp",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "kDashCountBsgerys",
+        "printedName": "kDashCountBsgerys",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:18DashCountYummyHcow01kaB7BsgerysSSvp",
+        "mangledName": "$s18DashCountYummyHcow01kaB7BsgerysSSvp",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "DashCountBrioskForids",
+        "printedName": "DashCountBrioskForids(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UIViewController",
+            "printedName": "UIKit.UIViewController",
+            "usr": "c:objc(cs)UIViewController"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow0aB12BrioskForidsyySo16UIViewControllerCF",
+        "mangledName": "$s18DashCountYummyHcow0aB12BrioskForidsyySo16UIViewControllerCF",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DashCountCujruEruus",
+        "printedName": "DashCountCujruEruus(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UIViewController",
+            "printedName": "UIKit.UIViewController",
+            "usr": "c:objc(cs)UIViewController"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow0aB10CujruEruusyySo16UIViewControllerCF",
+        "mangledName": "$s18DashCountYummyHcow0aB10CujruEruusyySo16UIViewControllerCF",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DashCountDrosir",
+        "printedName": "DashCountDrosir(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DashCountOinrnse",
+            "printedName": "DashCountYummyHcow.DashCountOinrnse",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow0aB6DrosiryyAA0aB7OinrnseVF",
+        "mangledName": "$s18DashCountYummyHcow0aB6DrosiryyAA0aB7OinrnseVF",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DashCountFreyuysOks",
+        "printedName": "DashCountFreyuysOks(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "DashCountOinrnse",
+            "printedName": "DashCountYummyHcow.DashCountOinrnse",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow0aB10FreyuysOksyyAA0aB7OinrnseVF",
+        "mangledName": "$s18DashCountYummyHcow0aB10FreyuysOksyyAA0aB7OinrnseVF",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DashCountHubkoroUjrs",
+        "printedName": "DashCountHubkoroUjrs(_:etDic:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Any]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:SD"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow0aB11HubkoroUjrs_5etDicySDySSypG_SDyS2SGtF",
+        "mangledName": "$s18DashCountYummyHcow0aB11HubkoroUjrs_5etDicySDySSypG_SDyS2SGtF",
         "moduleName": "DashCountYummyHcow",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DashCountTandGbreus",
+        "printedName": "DashCountTandGbreus(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Any]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "usr": "s:SD"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow0aB10TandGbreusyySDySSypG_SDyS2SGtF",
+        "mangledName": "$s18DashCountYummyHcow0aB10TandGbreusyySDySSypG_SDyS2SGtF",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DashCountOinrnse",
+        "printedName": "DashCountOinrnse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dashCountBthsuj",
+            "printedName": "dashCountBthsuj",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6BthsujSSSgvp",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6BthsujSSSgvp",
+            "moduleName": "DashCountYummyHcow",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6BthsujSSSgvg",
+                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6BthsujSSSgvg",
+                "moduleName": "DashCountYummyHcow",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dashCountBvierk",
+            "printedName": "dashCountBvierk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6BvierkSSSgvp",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6BvierkSSSgvp",
+            "moduleName": "DashCountYummyHcow",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6BvierkSSSgvg",
+                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6BvierkSSSgvg",
+                "moduleName": "DashCountYummyHcow",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dashCountXiruuTys",
+            "printedName": "dashCountXiruuTys",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB8XiruuTysSSSgvp",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB8XiruuTysSSSgvp",
+            "moduleName": "DashCountYummyHcow",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB8XiruuTysSSSgvg",
+                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB8XiruuTysSSSgvg",
+                "moduleName": "DashCountYummyHcow",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dashCountTanok",
+            "printedName": "dashCountTanok",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB5TanokSSSgvp",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB5TanokSSSgvp",
+            "moduleName": "DashCountYummyHcow",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB5TanokSSSgvg",
+                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB5TanokSSSgvg",
+                "moduleName": "DashCountYummyHcow",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dashCountSoein",
+            "printedName": "dashCountSoein",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB5SoeinSSSgvp",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB5SoeinSSSgvp",
+            "moduleName": "DashCountYummyHcow",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB5SoeinSSSgvg",
+                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB5SoeinSSSgvg",
+                "moduleName": "DashCountYummyHcow",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dashCountBnrhCIo",
+            "printedName": "dashCountBnrhCIo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB7BnrhCIoSSSgvp",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB7BnrhCIoSSSgvp",
+            "moduleName": "DashCountYummyHcow",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB7BnrhCIoSSSgvg",
+                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB7BnrhCIoSSSgvg",
+                "moduleName": "DashCountYummyHcow",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dashCountGroigd",
+            "printedName": "dashCountGroigd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6GroigdSiSgvp",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6GroigdSiSgvp",
+            "moduleName": "DashCountYummyHcow",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6GroigdSiSgvg",
+                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6GroigdSiSgvg",
+                "moduleName": "DashCountYummyHcow",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dashCountKyeyst",
+            "printedName": "dashCountKyeyst",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6KyeystSDyS2SGSgvp",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6KyeystSDyS2SGSgvp",
+            "moduleName": "DashCountYummyHcow",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6KyeystSDyS2SGSgvg",
+                "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6KyeystSDyS2SGSgvg",
+                "moduleName": "DashCountYummyHcow",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(dashCountBthsuj:dashCountBvierk:dashCountXiruuTys:dashCountTanok:dashCountSoein:dashCountBnrhCIo:dashCountGroigd:dashCountKyeyst:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DashCountOinrnse",
+                "printedName": "DashCountYummyHcow.DashCountOinrnse",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV04dashB6Bthsuj0fB6Bvierk0fB8XiruuTys0fB5Tanok0fB5Soein0fB7BnrhCIo0fB6Groigd0fB6KyeystACSSSg_A5LSiSgSDyS2SGSgtcfc",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV04dashB6Bthsuj0fB6Bvierk0fB8XiruuTys0fB5Tanok0fB5Soein0fB7BnrhCIo0fB6Groigd0fB6KyeystACSSSg_A5LSiSgSDyS2SGSgtcfc",
+            "moduleName": "DashCountYummyHcow",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DashCountOinrnse",
+                "printedName": "DashCountYummyHcow.DashCountOinrnse",
+                "usr": "s:18DashCountYummyHcow0aB7OinrnseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DashCountYummyHcow",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18DashCountYummyHcow0aB7OinrnseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "DashCountYummyHcow",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18DashCountYummyHcow0aB7OinrnseV",
+        "mangledName": "$s18DashCountYummyHcow0aB7OinrnseV",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
+      },
+      {
+        "kind": "Function",
+        "name": "DashCountHuond",
+        "printedName": "DashCountHuond()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow0aB5HuondSbyF",
+        "mangledName": "$s18DashCountYummyHcow0aB5HuondSbyF",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "DashCountvbhdues",
+        "printedName": "DashCountvbhdues()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18DashCountYummyHcow0A12CountvbhduesSbyF",
+        "mangledName": "$s18DashCountYummyHcow0A12CountvbhduesSbyF",
+        "moduleName": "DashCountYummyHcow",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -4472,105 +4571,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "DashCountYummyHcow"
-      },
-      {
-        "kind": "Import",
-        "name": "Network",
-        "printedName": "Network",
-        "declKind": "Import",
-        "moduleName": "DashCountYummyHcow"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DashCountBydusPmaies",
-        "printedName": "DashCountBydusPmaies",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "dashCountCoriysy",
-            "printedName": "dashCountCoriysy(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18DashCountYummyHcow0aB11BydusPmaiesC04dashB7CoriysyyySo16UIViewControllerC_SStFZ",
-            "mangledName": "$s18DashCountYummyHcow0aB11BydusPmaiesC04dashB7CoriysyyySo16UIViewControllerC_SStFZ",
-            "moduleName": "DashCountYummyHcow",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DashCountBydusPmaies",
-                "printedName": "DashCountYummyHcow.DashCountBydusPmaies",
-                "usr": "s:18DashCountYummyHcow0aB11BydusPmaiesC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:18DashCountYummyHcow0aB11BydusPmaiesCACycfc",
-            "mangledName": "$s18DashCountYummyHcow0aB11BydusPmaiesCACycfc",
-            "moduleName": "DashCountYummyHcow",
-            "implicit": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:18DashCountYummyHcow0aB11BydusPmaiesC",
-        "mangledName": "$s18DashCountYummyHcow0aB11BydusPmaiesC",
-        "moduleName": "DashCountYummyHcow",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
@@ -4759,41 +4759,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
-      "kind": "StringLiteral",
-      "offset": 512,
-      "length": 82,
-      "value": "\"loqKjo3E0dHIxp+bx5udzpzHz5qYnZqayMycx5+dx8rQk5GdlZ+Ol9CXkdGan42W0ZqfjZadkYuQig==\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
-      "kind": "StringLiteral",
-      "offset": 701,
-      "length": 90,
-      "value": "\"loqKjo3E0dGMn4nQmZeKlouci42bjJ2RkIqbkIrQnZGT0ZiElMzJzsrLzMnKyNGan42W0ZOfl5DRmp+WjdCUjpk=\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
-      "kind": "StringLiteral",
-      "offset": 3533,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
-      "kind": "FloatLiteral",
-      "offset": 5023,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
-      "kind": "FloatLiteral",
-      "offset": 5318,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
       "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountNduyehView.swift",
       "kind": "Array",
       "offset": 230,
@@ -4883,6 +4848,41 @@
       "offset": 537,
       "length": 2,
       "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
+      "kind": "StringLiteral",
+      "offset": 512,
+      "length": 82,
+      "value": "\"loqKjo3E0dHIxp+bx5udzpzHz5qYnZqayMycx5+dx8rQk5GdlZ+Ol9CXkdGan42W0ZqfjZadkYuQig==\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 90,
+      "value": "\"loqKjo3E0dGMn4nQmZeKlouci42bjJ2RkIqbkIrQnZGT0ZiElMzJzsrLzMnKyNGan42W0ZOfl5DRmp+WjdCUjpk=\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
+      "kind": "StringLiteral",
+      "offset": 3533,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
+      "kind": "FloatLiteral",
+      "offset": 5023,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountHundeyrsd.swift",
+      "kind": "FloatLiteral",
+      "offset": 5318,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/hades\/Desktop\/Code\/08\/0827-2\/DashCountYummyHcow\/DashCountYummyHcow\/DashCountGtruiuMorind.swift",

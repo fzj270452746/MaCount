@@ -34,26 +34,38 @@ class Main_Game_VC: UIViewController {
     private var last_tap_time_for_dash: TimeInterval = 0
     
     // MARK: - Constants for Dash
-    private let tile_width_for_dash: CGFloat = 80 // 麻将图片宽度
-    private let tile_height_for_dash: CGFloat = 100 // 麻将图片高度（增加20像素）
     private let min_tiles_for_dash: Int = 6
     private let max_tiles_for_dash: Int = 12
     private let base_countdown_for_dash: TimeInterval = 5.0
+    
+    // MARK: - Dynamic Layout Properties
+    private var tile_width_for_dash: CGFloat = 40
+    private var tile_height_for_dash: CGFloat = 50
+    private var tile_spacing_for_dash: CGFloat = 4
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setup_ui_for_dash()
         setup_constraints_for_dash()
+        calculate_dynamic_tile_sizes_for_dash()
         setup_game_for_dash()
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
+        // 重新计算动态尺寸（适应屏幕旋转等布局变化）
+        calculate_dynamic_tile_sizes_for_dash()
+        
         // 更新所有渐变层的frame
         update_gradient_layers_frame_for_dash()
         
-        // 如果游戏正在进行中，确保麻将图片在正确的位置
+        // 如果游戏正在进行中，重新布局现有的麻将牌
+        if is_game_active_for_dash && !mahjong_tiles_for_dash.isEmpty {
+            relayout_existing_tiles_for_dash()
+        }
+        
+        // 如果游戏正在进行中但没有麻将图片，生成初始图片
         if is_game_active_for_dash && mahjong_tiles_for_dash.isEmpty {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                 self.spawn_initial_tiles_for_dash()
@@ -89,6 +101,107 @@ class Main_Game_VC: UIViewController {
     }
     
     // MARK: - Setup Methods for Dash
+    
+    private func calculate_dynamic_tile_sizes_for_dash() {
+        // 获取屏幕尺寸
+        let screen_bounds = UIScreen.main.bounds
+        let screen_width = screen_bounds.width
+        let screen_height = screen_bounds.height
+        let screen_scale = UIScreen.main.scale
+        
+        // 检测设备类型和运行环境
+        let is_ipad = UIDevice.current.userInterfaceIdiom == .pad
+        let is_large_screen = max(screen_width, screen_height) > 736 // iPhone Plus及以上
+        let is_compact_height = screen_height <= 568 // iPhone SE等小屏设备
+        
+        // 基础尺寸（iPhone标准尺寸）
+        let base_tile_width: CGFloat = 60
+        let base_tile_height: CGFloat = 80
+        let base_spacing: CGFloat = 5
+        
+        // 根据设备和屏幕尺寸智能调整
+        var scale_factor: CGFloat = 1.0
+        
+        if is_ipad {
+            // iPad兼容模式下，根据屏幕密度和尺寸智能缩放
+            // 在iPad上，iPhone应用通常以1x或2x模式运行
+            if screen_scale >= 2.0 {
+                scale_factor = 1.5  // 高密度屏幕适度放大
+            } else {
+                scale_factor = 1.3  // 标准密度屏幕适度放大
+            }
+        } else if is_large_screen {
+            // 大屏iPhone（Plus, Pro Max等）
+            scale_factor = 1.15
+        } else if is_compact_height {
+            // 小屏设备（iPhone SE等）保持紧凑
+            scale_factor = 0.9
+        }
+        
+        // 计算最终尺寸
+        tile_width_for_dash = base_tile_width * scale_factor
+        tile_height_for_dash = base_tile_height * scale_factor
+        tile_spacing_for_dash = base_spacing * scale_factor
+        
+        // 动态调整以确保在游戏区域内合适显示
+        DispatchQueue.main.async {
+            if let game_area = self.game_area_view_for_dash {
+                let available_width = game_area.bounds.width
+                let available_height = game_area.bounds.height
+                
+                if available_width > 0 && available_height > 0 {
+                    // 计算3x3网格所需的总空间
+                    let required_width = self.tile_width_for_dash * 3 + self.tile_spacing_for_dash * 2
+                    let required_height = self.tile_height_for_dash * 3 + self.tile_spacing_for_dash * 2
+                    
+                    // 如果超出可用空间，按比例缩小
+                    let width_ratio = available_width / required_width
+                    let height_ratio = available_height / required_height
+                    let adjustment_ratio = min(width_ratio, height_ratio, 1.0)
+                    
+                    if adjustment_ratio < 1.0 {
+                        self.tile_width_for_dash *= adjustment_ratio
+                        self.tile_height_for_dash *= adjustment_ratio
+                        self.tile_spacing_for_dash *= adjustment_ratio
+                    }
+                }
+            }
+        }
+        
+        // 确保尺寸在合理范围内
+        tile_width_for_dash = max(min(tile_width_for_dash, 140), 60)   // 60-140px范围
+        tile_height_for_dash = max(min(tile_height_for_dash, 175), 75) // 75-175px范围
+        tile_spacing_for_dash = max(tile_spacing_for_dash, 4)          // 最小4px间距
+    }
+    
+    private func relayout_existing_tiles_for_dash() {
+        guard !mahjong_tiles_for_dash.isEmpty else { return }
+        
+        // 获取游戏区域的边界
+        let game_area_bounds = game_area_view_for_dash.bounds
+        guard game_area_bounds.width > 0, game_area_bounds.height > 0 else { return }
+        
+        // 重新计算布局参数
+        let total_width = tile_width_for_dash * 3 + tile_spacing_for_dash * 2
+        let total_height = tile_height_for_dash * 3 + tile_spacing_for_dash * 2
+        let start_x = (game_area_bounds.width - total_width) / 2
+        let start_y = (game_area_bounds.height - total_height) / 2
+        
+        // 重新布局所有现有的麻将牌
+        for (index, tile) in mahjong_tiles_for_dash.enumerated() {
+            let grid_x = index % 3
+            let grid_y = index / 3
+            
+            let x = start_x + CGFloat(grid_x) * (tile_width_for_dash + tile_spacing_for_dash)
+            let y = start_y + CGFloat(grid_y) * (tile_height_for_dash + tile_spacing_for_dash)
+            
+            // 使用动画平滑过渡到新位置
+            UIView.animate(withDuration: 0.3, delay: 0, options: [.curveEaseInOut], animations: {
+                tile.frame = CGRect(x: x, y: y, width: self.tile_width_for_dash, height: self.tile_height_for_dash)
+            })
+        }
+    }
+    
     private func setup_ui_for_dash() {
         view.backgroundColor = .black
         
@@ -313,6 +426,7 @@ class Main_Game_VC: UIViewController {
         difficulty_info_label_for_dash.textAlignment = .center
         difficulty_info_label_for_dash.translatesAutoresizingMaskIntoConstraints = false
         overlay_view_for_dash.addSubview(difficulty_info_label_for_dash)
+        difficulty_info_label_for_dash.isHidden = true
         
         setup_game_over_ui_for_dash()
     }
@@ -576,9 +690,9 @@ class Main_Game_VC: UIViewController {
             }
             
         
-            // 3x3网格布局计算 - 确保完全居中
-            let total_width = self.tile_width_for_dash * 3
-            let total_height = self.tile_height_for_dash * 3
+            // 3x3网格布局计算 - 确保完全居中，包含间距
+            let total_width = self.tile_width_for_dash * 3 + self.tile_spacing_for_dash * 2
+            let total_height = self.tile_height_for_dash * 3 + self.tile_spacing_for_dash * 2
             
             // 计算起始位置，确保网格在游戏区域中完全居中
             let start_x = (game_area_bounds.width - total_width) / 2
@@ -592,9 +706,9 @@ class Main_Game_VC: UIViewController {
                 let tile = MahjongTileView(width: self.tile_width_for_dash, height: self.tile_height_for_dash)
                 tile.delegate = self
                 
-                // 精确计算每个麻将图片的位置
-                let x = start_x + CGFloat(grid_x) * self.tile_width_for_dash
-                let y = start_y + CGFloat(grid_y) * self.tile_height_for_dash
+                // 精确计算每个麻将图片的位置，包含间距
+                let x = start_x + CGFloat(grid_x) * (self.tile_width_for_dash + self.tile_spacing_for_dash)
+                let y = start_y + CGFloat(grid_y) * (self.tile_height_for_dash + self.tile_spacing_for_dash)
                                 
                 tile.frame = CGRect(x: x, y: y, width: self.tile_width_for_dash, height: self.tile_height_for_dash)
                 
@@ -619,9 +733,9 @@ class Main_Game_VC: UIViewController {
                 return
             }
             
-            // 3x3网格布局计算 - 确保完全居中
-            let total_width = self.tile_width_for_dash * 3
-            let total_height = self.tile_height_for_dash * 3
+            // 3x3网格布局计算 - 确保完全居中，包含间距
+            let total_width = self.tile_width_for_dash * 3 + self.tile_spacing_for_dash * 2
+            let total_height = self.tile_height_for_dash * 3 + self.tile_spacing_for_dash * 2
             
             // 计算起始位置，确保网格在游戏区域中完全居中
             let start_x = (game_area_bounds.width - total_width) / 2
@@ -635,9 +749,9 @@ class Main_Game_VC: UIViewController {
             let tile = MahjongTileView(width: self.tile_width_for_dash, height: self.tile_height_for_dash)
             tile.delegate = self
             
-            // 精确计算每个麻将图片的位置
-            let x = start_x + CGFloat(grid_x) * self.tile_width_for_dash
-            let y = start_y + CGFloat(grid_y) * self.tile_height_for_dash
+            // 精确计算每个麻将图片的位置，包含间距
+            let x = start_x + CGFloat(grid_x) * (self.tile_width_for_dash + self.tile_spacing_for_dash)
+            let y = start_y + CGFloat(grid_y) * (self.tile_height_for_dash + self.tile_spacing_for_dash)
             
             tile.frame = CGRect(x: x, y: y, width: self.tile_width_for_dash, height: self.tile_height_for_dash)
             
