@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		285AD9B72E5EDA7100063A1D /* DashCountYummyHcow.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285AD9B62E5EDA7100063A1D /* DashCountYummyHcow.xcframework */; };
+		AB8824F6880D42996F0A184E /* Pods_MaCount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D539BC8F6314A085F9FE00BC /* Pods_MaCount.framework */; };
+		FE006AC22E5ACA4000565593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE006AB72E5ACA4000565593 /* Assets.xcassets */; };
+		FE006AC42E5ACA4000565593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE006ABA2E5ACA4000565593 /* LaunchScreen.storyboard */; };
+		FE006AC52E5ACA4000565593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE006ABD2E5ACA4000565593 /* Main.storyboard */; };
+		FE006AC72E5ACA4000565593 /* MaCount.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE006ABB2E5ACA4000565593 /* MaCount.xcdatamodeld */; };
+		FE3EA8072E5DE5080024F071 /* Mahjong_Tile_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8042E5DE5080024F071 /* Mahjong_Tile_View.swift */; };
+		FE3EA8082E5DE5080024F071 /* Splash_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8062E5DE5080024F071 /* Splash_VC.swift */; };
+		FE3EA8092E5DE5080024F071 /* Main_Game_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8052E5DE5080024F071 /* Main_Game_VC.swift */; };
+		FE3EA80B2E5DE5080024F071 /* High_Scores_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8032E5DE5080024F071 /* High_Scores_VC.swift */; };
+		FE3EA80C2E5DE5080024F071 /* Game_Stats_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8002E5DE5080024F071 /* Game_Stats_Manager.swift */; };
+		FE3EA80D2E5DE5080024F071 /* Game_Stats_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8012E5DE5080024F071 /* Game_Stats_VC.swift */; };
+		FE3EA8112E5DE56E0024F071 /* Settings_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8102E5DE56E0024F071 /* Settings_VC.swift */; };
+		FE3EA8132E5DEBC60024F071 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8122E5DEBC60024F071 /* SceneDelegate.swift */; };
+		FE3EA8172E5DEC450024F071 /* AppDelegate .swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3EA8162E5DEC450024F071 /* AppDelegate .swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		285AD9B62E5EDA7100063A1D /* DashCountYummyHcow.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DashCountYummyHcow.xcframework; sourceTree = "<group>"; };
+		AE1B137F64F2AD27DA4BB394 /* Pods-MaCount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaCount.release.xcconfig"; path = "Target Support Files/Pods-MaCount/Pods-MaCount.release.xcconfig"; sourceTree = "<group>"; };
+		CE86D396B69D3F205CE4463A /* Pods-MaCount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaCount.debug.xcconfig"; path = "Target Support Files/Pods-MaCount/Pods-MaCount.debug.xcconfig"; sourceTree = "<group>"; };
+		D539BC8F6314A085F9FE00BC /* Pods_MaCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE006A7F2E5AC7B000565593 /* MaCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE006AB72E5ACA4000565593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE006AB82E5ACA4000565593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE006AB92E5ACA4000565593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE006ABC2E5ACA4000565593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE006AC12E5ACA4000565593 /* MaCount.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaCount.xcdatamodel; sourceTree = "<group>"; };
+		FE3EA8002E5DE5080024F071 /* Game_Stats_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_Stats_Manager.swift; sourceTree = "<group>"; };
+		FE3EA8012E5DE5080024F071 /* Game_Stats_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_Stats_VC.swift; sourceTree = "<group>"; };
+		FE3EA8032E5DE5080024F071 /* High_Scores_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = High_Scores_VC.swift; sourceTree = "<group>"; };
+		FE3EA8042E5DE5080024F071 /* Mahjong_Tile_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mahjong_Tile_View.swift; sourceTree = "<group>"; };
+		FE3EA8052E5DE5080024F071 /* Main_Game_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_Game_VC.swift; sourceTree = "<group>"; };
+		FE3EA8062E5DE5080024F071 /* Splash_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash_VC.swift; sourceTree = "<group>"; };
+		FE3EA8102E5DE56E0024F071 /* Settings_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings_VC.swift; sourceTree = "<group>"; };
+		FE3EA8122E5DEBC60024F071 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE3EA8162E5DEC450024F071 /* AppDelegate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate .swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE006A7C2E5AC7B000565593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285AD9B72E5EDA7100063A1D /* DashCountYummyHcow.xcframework in Frameworks */,
+				AB8824F6880D42996F0A184E /* Pods_MaCount.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B6B46914F1E9873D838DAFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE86D396B69D3F205CE4463A /* Pods-MaCount.debug.xcconfig */,
+				AE1B137F64F2AD27DA4BB394 /* Pods-MaCount.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		606F425CCA6AE1D4F37886C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D539BC8F6314A085F9FE00BC /* Pods_MaCount.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE006A762E5AC7B000565593 = {
+			isa = PBXGroup;
+			children = (
+				FE006AC02E5ACA4000565593 /* MaCount */,
+				FE006A802E5AC7B000565593 /* Products */,
+				4B6B46914F1E9873D838DAFF /* Pods */,
+				606F425CCA6AE1D4F37886C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE006A802E5AC7B000565593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE006A7F2E5AC7B000565593 /* MaCount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE006AC02E5ACA4000565593 /* MaCount */ = {
+			isa = PBXGroup;
+			children = (
+				FE3EA8162E5DEC450024F071 /* AppDelegate .swift */,
+				FE3EA8122E5DEBC60024F071 /* SceneDelegate.swift */,
+				FE3EA8002E5DE5080024F071 /* Game_Stats_Manager.swift */,
+				FE3EA8042E5DE5080024F071 /* Mahjong_Tile_View.swift */,
+				285AD9B62E5EDA7100063A1D /* DashCountYummyHcow.xcframework */,
+				FEF9BEE02E5E1D600024F6F3 /* MaVC */,
+				FE006AB72E5ACA4000565593 /* Assets.xcassets */,
+				FE006AB82E5ACA4000565593 /* Info.plist */,
+				FE006ABA2E5ACA4000565593 /* LaunchScreen.storyboard */,
+				FE006ABB2E5ACA4000565593 /* MaCount.xcdatamodeld */,
+				FE006ABD2E5ACA4000565593 /* Main.storyboard */,
+			);
+			path = MaCount;
+			sourceTree = "<group>";
+		};
+		FEF9BEE02E5E1D600024F6F3 /* MaVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE3EA8012E5DE5080024F071 /* Game_Stats_VC.swift */,
+				FE3EA8032E5DE5080024F071 /* High_Scores_VC.swift */,
+				FE3EA8052E5DE5080024F071 /* Main_Game_VC.swift */,
+				FE3EA8062E5DE5080024F071 /* Splash_VC.swift */,
+				FE3EA8102E5DE56E0024F071 /* Settings_VC.swift */,
+			);
+			path = MaVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE006A7E2E5AC7B000565593 /* MaCount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE006A952E5AC7B200565593 /* Build configuration list for PBXNativeTarget "MaCount" */;
+			buildPhases = (
+				8C26417688FEBB5BB7821491 /* [CP] Check Pods Manifest.lock */,
+				FE006A7B2E5AC7B000565593 /* Sources */,
+				FE006A7C2E5AC7B000565593 /* Frameworks */,
+				FE006A7D2E5AC7B000565593 /* Resources */,
+				864C7887CFA26F121EADDF74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaCount;
+			productName = MaCount;
+			productReference = FE006A7F2E5AC7B000565593 /* MaCount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE006A772E5AC7B000565593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FE006A7E2E5AC7B000565593 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = FE006A7A2E5AC7B000565593 /* Build configuration list for PBXProject "MaCount" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE006A762E5AC7B000565593;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FE006A802E5AC7B000565593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE006A7E2E5AC7B000565593 /* MaCount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE006A7D2E5AC7B000565593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE006AC22E5ACA4000565593 /* Assets.xcassets in Resources */,
+				FE006AC42E5ACA4000565593 /* LaunchScreen.storyboard in Resources */,
+				FE006AC52E5ACA4000565593 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		864C7887CFA26F121EADDF74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaCount/Pods-MaCount-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaCount/Pods-MaCount-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaCount/Pods-MaCount-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C26417688FEBB5BB7821491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaCount-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE006A7B2E5AC7B000565593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3EA8112E5DE56E0024F071 /* Settings_VC.swift in Sources */,
+				FE3EA8072E5DE5080024F071 /* Mahjong_Tile_View.swift in Sources */,
+				FE3EA8172E5DEC450024F071 /* AppDelegate .swift in Sources */,
+				FE3EA8082E5DE5080024F071 /* Splash_VC.swift in Sources */,
+				FE3EA8092E5DE5080024F071 /* Main_Game_VC.swift in Sources */,
+				FE3EA8132E5DEBC60024F071 /* SceneDelegate.swift in Sources */,
+				FE3EA80B2E5DE5080024F071 /* High_Scores_VC.swift in Sources */,
+				FE3EA80C2E5DE5080024F071 /* Game_Stats_Manager.swift in Sources */,
+				FE3EA80D2E5DE5080024F071 /* Game_Stats_VC.swift in Sources */,
+				FE006AC72E5ACA4000565593 /* MaCount.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE006ABA2E5ACA4000565593 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE006AB92E5ACA4000565593 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE006ABD2E5ACA4000565593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE006ABC2E5ACA4000565593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE006A962E5AC7B200565593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE86D396B69D3F205CE4463A /* Pods-MaCount.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaCount/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong Dash​";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to provide a better and personalized ad experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaCount.DashMla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE006A972E5AC7B200565593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1B137F64F2AD27DA4BB394 /* Pods-MaCount.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MaCount/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong Dash​";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to provide a better and personalized ad experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaCount.DashMla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FE006A982E5AC7B200565593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE006A992E5AC7B200565593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE006A7A2E5AC7B000565593 /* Build configuration list for PBXProject "MaCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE006A982E5AC7B200565593 /* Debug */,
+				FE006A992E5AC7B200565593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE006A952E5AC7B200565593 /* Build configuration list for PBXNativeTarget "MaCount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE006A962E5AC7B200565593 /* Debug */,
+				FE006A972E5AC7B200565593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE006ABB2E5ACA4000565593 /* MaCount.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE006AC12E5ACA4000565593 /* MaCount.xcdatamodel */,
+			);
+			currentVersion = FE006AC12E5ACA4000565593 /* MaCount.xcdatamodel */;
+			path = MaCount.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE006A772E5AC7B000565593 /* Project object */;
+}

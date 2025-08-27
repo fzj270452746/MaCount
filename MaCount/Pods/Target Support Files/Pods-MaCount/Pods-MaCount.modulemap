@@ -1,0 +1,6 @@
+framework module Pods_MaCount {
+  umbrella header "Pods-MaCount-umbrella.h"
+
+  export *
+  module * { export * }
+}
